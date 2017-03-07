@@ -17,9 +17,9 @@ ro.ril.def.agps.mode=2
 ro.ril.def.agps.feature=1
 ro.ril.ecclist=104,105,107,112,911
 
-ro.ril.enable.amr.wideband=1
+ro.ril.enable.amr.wideband=0
 persist.cust.tel.eons=1
-ro.config.hw_fast_dormancy=1
+ro.config.hw_fast_dormancy=0
 ro.ril.htcmaskw1.bitmask=4294967295
 ro.ril.htcmaskw1=14449
 ro.ril.enable.fd.plmn.prefix=23402,23410,23411
@@ -38,12 +38,6 @@ net.tcp.buffersize.hsdpa=4096,87380,256960,4096,16384,256960
 net.tcp.buffersize.lte=524288,1048576,2097152,524288,1048576,2097152
 net.tcp.buffersize.evdo_b=6144,87380,1048576,6144,87380,1048576
 
-# Google DNS
-net.ppp0.dns1=8.8.8.8
-net.ppp0.dns2=8.8.4.4
-net.dns1=8.8.8.8
-net.dns2=8.8.4.4  
-
 # No Delay In Making Call
 ro.telephony.call_ring.delay=0
 ro.telephony.call_ring.multiple=false
@@ -61,7 +55,7 @@ ro.lge.proximity.delay=25
 mot.proximity.delay=25
 
 # Frees More RAM
-persist.sys.purgeable_assets=1
+persist.sys.purgeable_assets=0
 
 # Better Responsiveness & Speed
 windowsmgr.max_events_per_sec=90
@@ -70,7 +64,7 @@ ro.min.fling_velocity=8000
 
 # Increase overall touch responsiveness
 debug.performance.tuning=1
-video.accelerate.hw=1
+video.accelerate.hw=0
 
 # Lock App In Memory
 sys.keep_app_1=com.cyanogenmod.trebuchet
@@ -83,7 +77,7 @@ ro.config.hwfeature_wakeupkey=0
 vm.stat_interval=1
 
 # Enable Surface Dithering Which Will Raise Image Quality At The Cost Of Performances - 1=ON;0=OFF
-persist.sys.use_dithering=0
+persist.sys.use_dithering=1
 
 # Improves Camera & Video Results
 ro.media.panorama.defres=3264x1840
